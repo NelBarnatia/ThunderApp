@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThunderApp.API", "ThunderApp.API.csproj", "{B0B94F7E-7E81-481C-9071-AC2D6E635DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0B94F7E-7E81-481C-9071-AC2D6E635DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B94F7E-7E81-481C-9071-AC2D6E635DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B94F7E-7E81-481C-9071-AC2D6E635DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B94F7E-7E81-481C-9071-AC2D6E635DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0B76833-4345-4408-BBF1-C8CA2D3DE214}
+	EndGlobalSection
+EndGlobal
