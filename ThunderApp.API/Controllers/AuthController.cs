@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -10,7 +11,8 @@ using ThunderApp.API.Dtos;
 using ThunderApp.API.Interfaces;
 using ThunderApp.API.Models;
 
-namespace ThunderApp.API.Controllers {
+namespace ThunderApp.API.Controllers 
+{
     [Route ("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase {
