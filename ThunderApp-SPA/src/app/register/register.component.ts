@@ -14,7 +14,7 @@ export class RegisterComponent implements OnInit {
   constructor(private authService: AuthService) { }
 
   ngOnInit() {
-    this.errorLabel = "";
+    this.errorLabel = '';
   }
 
   register() {
