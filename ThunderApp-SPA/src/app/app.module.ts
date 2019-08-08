@@ -8,21 +8,25 @@ import { from } from 'rxjs';
 import { AuthService } from './_services/auth.service';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { FooterComponent } from './footer/footer.component';
+import { ErrorInterceptorProvide } from './_services/error.interceptor';
 
 @NgModule({
    declarations: [
       AppComponent,
       NavComponent,
       HomeComponent,
-      RegisterComponent
+      RegisterComponent,
+      FooterComponent
    ],
    imports: [
       BrowserModule,
       HttpClientModule,
-      FormsModule
+      FormsModule,
    ],
    providers: [
-      AuthService
+      AuthService,
+      ErrorInterceptorProvide
    ],
    bootstrap: [
       AppComponent
